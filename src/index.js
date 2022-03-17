@@ -1,3 +1,4 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -5,7 +6,7 @@ import AppLayout from './containers/AppLayout';
 import Caught from './routes/Caught';
 import Description from './routes/Description';
 import PokemonList from './components/PokemonList';
-import './index.css';
+
 
 ReactDOM.render(
   <Router>
