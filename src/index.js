@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css';
 import AppLayout from './containers/AppLayout';
 import Caught from './routes/Caught';
 import Description from './routes/Description';
-import PokemonList from './components/PokemonList'
+import PokemonList from './components/PokemonList';
+import './index.css';
 
 ReactDOM.render(
   <Router>
-    <AppLayout>
-      <Routes>
+      <Routes> 
+        <AppLayout>
         <Route path="/" element={<PokemonList />} />
         <Route path="/caught" element={<Caught />} />
         <Route exact path="/description/:id" element={<Description />} />
@@ -22,8 +22,9 @@ ReactDOM.render(
             </main>
           }
           />
+          </AppLayout>
       </Routes>
-    </AppLayout>
+    
   </Router>,
   document.getElementById('root')
 );
