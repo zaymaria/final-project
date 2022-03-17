@@ -9,8 +9,8 @@ import './index.css';
 
 ReactDOM.render(
   <Router>
-      <Routes> 
-        <AppLayout>
+    <AppLayout />
+      <Routes>
         <Route path="/" element={<PokemonList />} />
         <Route path="/caught" element={<Caught />} />
         <Route exact path="/description/:id" element={<Description />} />
@@ -22,9 +22,8 @@ ReactDOM.render(
             </main>
           }
           />
-          </AppLayout>
       </Routes>
-    
+    {/* </AppLayout> */}
   </Router>,
   document.getElementById('root')
 );
