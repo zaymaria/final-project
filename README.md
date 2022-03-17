@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Pokedex 2022 app displays a variety of pokemons, which can be caught and released afterwards.
 Also, every pokemon card can be viewed in details by clicking on it. Moreover, you can view a list of caught pokemons on a separate page.
 
-App is published at https://zaymaria.github.io/
+App is published at https://zaymaria.github.io/final-project/
 
 ## Installation
 
